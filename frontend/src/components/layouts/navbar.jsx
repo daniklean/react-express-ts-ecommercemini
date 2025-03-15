@@ -22,7 +22,7 @@ export default function ModernNavbar() {
   const searchRef = useRef(null)
   const { totalItems } = useCartStore()
   const { toast } = useToast();
-  const API_URL = import.meta.env.VITE_BACKEND_URL
+  const API_URL = import.meta.env.VITE_PUBLIC_BACKEND_URL;
 
   const navigate = useNavigate()
 
